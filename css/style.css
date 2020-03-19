@@ -219,6 +219,10 @@ header a {
     background: #F4F9FD;
     padding-top: 76px;
     padding-bottom: 55px;
+    background-image: url(../img/rectangles-2.svg);
+    background-repeat: no-repeat;
+    background-position-y: 66%;
+    background-position-x: right;
 }
 
 .work-item {
@@ -267,4 +271,77 @@ header a {
     padding-left: 57px;
     background-image: url(../img/blot-3.svg);
     background-position: 8px 98px;
+}
+
+/*-------testimonial-----------*/
+
+.testimonial {
+    min-height: 519px;
+    background-image: url(../img/test_bg.jpg);
+    background-repeat: no-repeat;
+    padding-top: 38px;
+}
+
+.testimonial-title {
+    max-width: 383px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+    justify-content: center;
+}
+
+.testimonial-card {
+    max-width: 300px;
+    padding: 35px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.testimonial-card + .testimonial-card {
+    margin-left: 20px;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+.card-descr {
+    margin-left: 20px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    font-weight: 600;
+}
+
+.card-subname {
+    margin-top: -3px;
+    opacity: 0.5;
+}
+
+.card-quote {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.card-text {
+    text-align: center;
 }
