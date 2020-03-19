@@ -212,3 +212,59 @@ header a {
     opacity: 0.7;
     text-align: center;
 }
+
+/*-----------work--------------*/
+
+.work {
+    background: #F4F9FD;
+    padding-top: 76px;
+    padding-bottom: 55px;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work-content {
+    max-width: 460px;
+    padding-top: 60px;
+    padding-left: 49px;
+    background-image: url(../img/blot-1.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 76px;
+}
+
+.work-title {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    color: #202020;
+    padding: 68px 0 15px 0;
+}
+
+.work-text {
+    color: #272727;
+}
+
+.work-text p {
+    margin: 12px 0;
+}
+
+.work-item--reverse {
+    padding: 76px 0 24px 0;
+}
+
+.work-item--reverse .work-content {
+    order: 1;
+    padding-left: 40px;
+    background-image: url(../img/blot-2.svg);
+    background-position: 16px 134px;
+}
+
+.work-content--last {
+    padding-left: 57px;
+    background-image: url(../img/blot-3.svg);
+    background-position: 8px 98px;
+}
