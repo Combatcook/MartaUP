@@ -102,12 +102,40 @@ header a {
 
 /*-------header-slider---------*/
 
-.header-slider {
+.swiper-container {
+    height: 330px;
+    width: 100%;
+    margin-top: 141px;
+}
+
+.swiper-slide {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 141px;
+}
+
+.swiper-container-vertical .swiper-pagination-bullets {
+    position: absolute;
+    right: 0;
+    top: 36%;
+}
+
+.swiper-pagination-bullet {
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 3.5px;
+    width: 7px;
+    height: 7px;
+}
+
+.swiper-container-vertical .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 10px auto;
+}
+
+.swiper-pagination-bullet-active {
+    width: 15px;
+    opacity: 1;
 }
 
 .header-content {
