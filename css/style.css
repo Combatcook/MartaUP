@@ -340,8 +340,39 @@ header a {
     font-weight: bold;
     font-size: 40px;
     line-height: 55px;
+    margin-bottom: -15px;
 }
 
 .card-text {
     text-align: center;
+}
+
+/*-----------footer------------*/
+
+footer {
+    background-color: #fff;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #272727;
+    padding: 20px 30px 17px 30px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    max-width: 359px;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #272727;
+    text-decoration: none;
+}
+
+.footer-link + .footer-link {
+    margin-left: 30px;
 }
