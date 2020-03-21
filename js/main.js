@@ -1,6 +1,6 @@
 var mySwiper = new Swiper('.swiper-container', {
     speed: 400,
-    spaceBetween: 100,
+    spaceBetween: 200,
     direction: 'vertical',
     loop: true,
     pagination: {
@@ -12,3 +12,7 @@ var mySwiper = new Swiper('.swiper-container', {
       delay: 3000,
     },
 });
+
+$('.menu-btn').on('click', function() {
+  $('.menu-list').slideToggle();
+})
