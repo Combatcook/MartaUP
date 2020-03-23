@@ -641,6 +641,23 @@ footer {
     }
 }
 
+@media (max-width: 650px) {
+    .footer {
+        display: block;
+        text-align: left;
+        padding: 20px 5px 17px;
+    }
+    .footer-menu {
+        max-width: none;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .footer-link + .footer-link {
+        margin-left: 20px;
+    }
+}
+
 @media (max-width: 600px) {
     .header-top {
         position: relative;
